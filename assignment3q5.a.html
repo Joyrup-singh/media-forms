@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <h1>Sign Up Form</h1>
+    <form name="Sign Up Form" method="POST">
+        <p>
+            First Name:
+            <input type="text" size="10" name="First Name" placeholder="First Name" maxlength="10"required/>
+        </p>
+        <p>
+            Last Name:
+            <input type="text" size="10" name="Last Name" placeholder="Last Name" maxlength="10"required/>
+        </p>
+        <p>
+            Email:
+            <input type="text" size="10" name="Email" placeholder="Email" maxlength="30"required/>
+        </p>
+        <p>
+            Password:
+            <input type="text" size="10" name="Password" placeholder="Password" maxlength="8"required/>
+        </p>
+        <p>
+            Confirm Password:
+            <input type="text" size="15" name="Confirm Password" placeholder="Confirm Password" maxlength="8"required/> 
+        </p>
+        <p>
+            Age:
+            <input type="number" min="0" name="Age" placeholder="Age"required/>
+        </p>
+        <p>
+            Gender:
+            <input type="radio" name="Gender"required/>Male 
+            <input type="radio" name="Gender"required/>Female 
+            <input type="radio" name="Gender"required/>Others
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+    </form>
+</body>
+</html>
